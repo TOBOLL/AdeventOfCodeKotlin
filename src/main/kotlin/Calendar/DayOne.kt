@@ -1,3 +1,7 @@
+package Calendar
+
+import ReadFromFile
+
 class DayOne {
 
     var fileData = ReadFromFile.readFromFile("C:\\Users\\max-t\\Desktop\\AdeventOfCode\\src\\main\\resources\\taskOne.txt")
