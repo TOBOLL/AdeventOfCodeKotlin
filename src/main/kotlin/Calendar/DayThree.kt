@@ -38,9 +38,9 @@ class DayThree {
 
     fun partTwo(){
         var result:Int = 0
+        var iterator: Int = 0
         var dataOxygen = fileData
         var dataCarbon = fileData
-        var iterator: Int = 0
 
         while (1 < dataOxygen.size){
             var numberOfOnes:Int = dataOxygen.count { it[iterator] == '1' }
